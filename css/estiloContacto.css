@@ -1,0 +1,102 @@
+nav { width: 1800px; background-color: #e7ee59 }
+nav ul { list-style:none; margin:0; padding:5px }
+nav ul li { display:inline-block }
+nav ul li a { font-size: 0.85em; text-decoration: none; color: #0a0000; padding: 4px 20px }
+nav ul li a:hover { background-color: #B4531A }
+
+
+
+footer { clear:both; width:100%; margin:0 auto; font-size:0.85em; text-align:center; background-color:#ECECEC; padding:0px }
+
+
+nav ul li:hover > .submenu {
+  display: block;
+  background-color: #ebdb2a;
+}
+nav ul .submenu {
+  display: none;
+  position: absolute;
+  z-index: 999;
+}
+nav ul .submenu li {
+  display: block;
+  width: 100%;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f5e59d;
+    padding: 20px;
+    border: 5px solid #e2c104;
+    border-radius: 10px;
+  }
+  
+  .form-grupo {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #e2c104;
+  }
+  
+  input[type="text"],
+  input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #e2c104;
+    border: 5px;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #d2b904;
+  }
+
+  h1,h2 { font-family:Georgia, "Times New Roman", Times, serif; color:#e79737; font-style:italic; letter-spacing:-0.05em }
+  h3 {font-family:Georgia, "Times New Roman", Times, serif; color:#d2b904; font-style:italic; letter-spacing:-0.05em }
+  h1 { font-size:2.6em; margin:0 5px; }
+
+ h3{
+    text-align: center;
+    margin: 30px auto;
+    width: 600px;
+ }
+ 
+
+ .modal {
+  display: none; 
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #00000066;
+}
+
+.modal-content {
+  background-color: #f5f7a1;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  text-align: center;
+}
+
+

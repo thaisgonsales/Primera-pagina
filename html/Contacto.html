@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Contacto</title>
+
+
+        <link rel="stylesheet" type="text/css" href="../css/estiloContacto.css">
+
+        <script src="../js/function.js"></script>
+
+        <link rel="php" href="../php/formulario.php">
+
+        <header>
+          <img src="../img/banner-header-paper-crumpled.jpg">
+        </header>
+        
+     
+
+        <nav>
+          <ul>
+            <li><a href="../html/Home.html">Home</a></li>
+            <li><a href="../html/Comida.html">Comidas Tipicas</a></li>
+            <li>
+              <a href="#">Recetas</a>
+              <ul class="submenu">
+                <li><a href="../html/Acaraje.html">Acarajé</a></li>
+                <li><a href="../html/acai.html">Acai</a></li>
+                <li><a href="../html/brigadeiro.html">Brigadeiro</a></li>
+                <li><a href="../html/pan.html">Pan de queso</a></li>
+                <li><a href="../html/coxinha.html">Coxinha</a></li>
+                <li><a href="../html/moqueca.html">Moqueca</a></li>
+              </ul>
+            </li>
+            <li><a href="../html/Contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
+
+    </head>
+
+    <body background="../img/fundo-amarelo-textura-aquarela.jpg">      
+
+
+        <h1><center>Muchas Gracias</center></h1><br>
+        <h3>Si tienes alguna pregunta sobre nuestra comida o servicios, o si simplemente quieres enviarnos un comentario o sugerencia, no dudes en llenar nuestro formulario de contacto.                     
+            ¡Gracias por visitarnos y esperamos saber de ti pronto!</h3><br><br><br>
+
+        <form id ="formulario" method="post" >
+            <div class="form-grupo">
+              <label for="rut">RUT:</label>
+              <input type="text" id="rut" name="rut">
+            </div>
+            <div class="form-grupo">
+              <label for="nombres">Nombres:</label>
+              <input type="text" id="nombres" name="nombres">
+            </div>
+            <div class="form-grupo">
+              <label for="apellidos">Apellidos:</label>
+              <input type="text" id="apellidos" name="apellidos">
+            </div>
+            <div class="form-grupo">
+              <label for="telefono">Teléfonos de Contacto:</label>
+              <input type="text" id="telefono" name="telefono">
+            </div>
+            <div class="form-grupo">
+              <label for="fecha">Fecha de nacimiento:</label> 
+              <input type="date" id="fecha" name="fecha">
+            </div>
+            <div class="form-grupo">
+              <label for="edad">Edad:</label>
+              <input type="text" id="edad" name="edad">
+            </div>
+            <div class="form-grupo">
+
+
+              
+              <button id="enviar" type="button" onclick="validar();">Enviar</button>
+ 
+              
+             
+                           
+        </form><br><br><br>
+      
+        
+
+   
+        
+
+    </body>
+    
+</html>

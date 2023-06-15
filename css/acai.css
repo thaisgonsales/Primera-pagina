@@ -1,0 +1,29 @@
+nav { width: 1800px; background-color: #e7ee59 }
+nav ul { list-style:none; margin:0; padding:5px }
+nav ul li { display:inline-block }
+nav ul li a { font-size: 0.85em; text-decoration: none; color: #0a0000; padding: 4px 20px }
+nav ul li a:hover { background-color: #B4531A }
+
+footer { clear:both; width:800px; margin:0 auto; font-size:0.85em; text-align:center; background-color:#ECECEC; padding:0px }
+
+h1, h2 , h3, h4 { font-family:Georgia, "Times New Roman", Times, serif; color:rgb(242, 208, 35); font-style:italic; letter-spacing:-0.05em }
+
+p {
+    font-style: italic;
+}
+
+nav ul li:hover > .submenu {
+    display: block;
+    background-color: #ebdb2a;
+  }
+  nav ul .submenu {
+    display: none;
+    position: absolute;
+    z-index: 999;
+  }
+  nav ul .submenu li {
+    display: block;
+    width: 100%;
+  }
+
+  footer { clear:both; width:800px; margin:0 auto; font-size:0.85em; text-align:center; background-color:#ECECEC; }

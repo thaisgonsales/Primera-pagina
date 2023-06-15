@@ -1,0 +1,123 @@
+nav { width: 1800px; background-color: #e7ee59 }
+nav ul { list-style:none; margin:0; padding:5px }
+nav ul li { display:inline-block }
+nav ul li a { font-size: 0.85em; text-decoration: none; color: #0a0000; padding: 4px 20px }
+nav ul li a:hover { background-color: #B4531A }
+
+
+footer { clear:both; width:800px; margin:0 auto; font-size:0.85em; text-align:center; background-color:#ECECEC; padding:0px }
+
+
+
+
+.img1:hover,
+.img2:hover,
+.img3:hover,
+.img4:hover,
+.img5:hover,
+.img6:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-out;
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6 {
+  cursor: pointer;
+}
+
+nav ul li:hover > .submenu {
+  display: block;
+  background-color: #ebdb2a;
+}
+nav ul .submenu {
+  display: none;
+  position: absolute;
+  z-index: 999;
+}
+nav ul .submenu li {
+  display: block;
+  width: 100%;
+}
+
+
+h1, h2, h3, h4 { font-family:Georgia, "Times New Roman", Times, serif; color:rgb(242, 208, 35); font-style:italic; letter-spacing:-0.05em }
+            h1 { font-size:2.6em; margin:0 5px; }
+            h2 { font-size:1.6em; margin:0 5px; }
+            h3 { color: #B4531A;}
+            #h2 {color: #B4531A;}
+            #h4 {color: #B4531A;}
+           
+
+figure {
+    float:left;
+                width:230px;
+                border-top:1px solid #e2c104;
+                border-bottom:1px solid #e2c104;
+                padding:40px 10px 0;
+                font-style: italic;
+                margin-right: 80px;
+                margin-bottom: 80px;
+                
+}.nutricional-value-table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 400px; 
+    margin: 0 auto;
+  }
+  
+  .nutricional-value-table caption {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+    color: #e2c104;
+  }
+  
+  .nutricional-value-table th {
+    padding: 5px; 
+    background-color: #e2c104;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .nutricional-value-table td {
+    padding: 5px; 
+    background-color: #e99207;
+  }
+  
+  .nutricional-value-table tr:nth-child(even) td {
+    background-color: #fff;
+  }
+  
+
+  .nutricional-value-table {
+    float: right;
+    margin-left: 20px;
+  }
+  
+  .evaluacion{display: flex;}
+  .star-icon{
+    list-style-type: none;
+    border: 1px solid #fff;
+    cursor: pointer;
+    color: #ffe500;
+    font-size: 30px;
+  }
+
+  .star-icon::before{
+    content: "\2606";
+  }
+
+  .star-icon.ativo ~ .star-icon::before{
+    content: "\2606";
+  }
+  .evaluacion:hover .star-icon::before{
+    content: "\2605";
+  }
+
+  .star-icon:hover ~ .star-icon::before{
+    content: "\2606";
+  }
+  
+
+
+  

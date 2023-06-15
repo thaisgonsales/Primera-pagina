@@ -1,0 +1,70 @@
+nav { width: 1800px; background-color: #e7ee59 }
+nav ul { list-style:none; margin:0; padding:5px }
+nav ul li { display:inline-block }
+nav ul li a { font-size: 0.85em; text-decoration: none; color: #0a0000; padding: 4px 20px }
+nav ul li a:hover { background-color: #B4531A }
+
+
+.img7:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease-out;
+}
+
+
+article {float: left; margin: 30px; width: 600px;}
+
+article header hgroup h5 {
+    margin: 0; font-size: 1.1em; color: #ccc;
+    font-weight: 100;
+}
+            
+h1, h2, h4 { font-family:Georgia, "Times New Roman", Times, serif; color:rgb(242, 208, 35); font-style:italic; letter-spacing:-0.05em }
+h1 { font-size:2.6em; margin:0 5px; }
+h4 { font-size:1.6em; margin:0 5px; }
+p, li { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; font-size:0.9em; color:#555; line-height:1.8 }
+
+footer { clear:both; width:800px; margin:0 auto; font-size:0.85em; text-align:center; background-color:#ECECEC; }
+
+
+.ver-recetas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 24px;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #ebdb2a;
+  text-decoration: none;
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+
+nav ul li:hover > .submenu {
+  display: block;
+  background-color: #ebdb2a;
+}
+nav ul .submenu {
+  display: none;
+  position: absolute;
+  z-index: 999;
+}
+nav ul .submenu li {
+  display: block;
+  width: 100%;
+}
+
+
+.cocinera2 a .ver-recetas {
+  position: absolute;
+  top: 80%;
+  left: 80%;
+  transform: translate(-40%, -40%);
+  opacity: 0;
+  transition: opacity 0.3s ease-out;
+}
+
+.cocinera2 a:hover .ver-recetas {
+  opacity: 1;
+}
